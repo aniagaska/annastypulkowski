@@ -352,3 +352,22 @@ template {
 
 /* Start
      ========================================================================== */
+html {
+  font-size: 18px;
+}
+
+body {
+  padding: 1 rem;
+}
+
+main {
+  margin: 0 auto;
+}
+
+h1 {
+  font-size: .74rem;
+}
+
+p {
+  font-size: 1.333rem;
+}
