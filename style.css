@@ -354,12 +354,18 @@ template {
      ========================================================================== */
   html {
       font-size: 18px;
+      /* Play around with this more! https://www.recursive.design/ */
       font-family: 'Recursive', monospace;
-
     }
     
   body {
       margin: 2rem;
+      /* accessible color palette generator https://venngage.com/tools/accessible-color-palette-generator */
+      background-color: #d5b98d;
+    }
+
+    main {
+      max-width: 90%;
     }
     
   h1, small {
@@ -368,4 +374,13 @@ template {
     
   p {
       font-size: 1.333rem;
+      line-height: 1.25;
     }
+  
+  a {
+    color: black;
+  }
+
+  a:focus {
+    background-color: #dde2f8;
+  }
