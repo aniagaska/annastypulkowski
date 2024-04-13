@@ -407,6 +407,10 @@ p {
   line-height: 1.25;
 }
 
+p::selection {
+  background-color: #dde2f8;
+}
+
 a {
   color: black;
 }
