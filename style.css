@@ -382,8 +382,9 @@ template {
      ========================================================================== */
 html {
   font-size: 18px;
-  /* Play around with this more! https://www.recursive.design/ */
+  /* https://www.recursive.design/ */
   font-family: 'Recursive', monospace;
+  font-variation-settings: "CASL" 1, "MONO" 0, "WGHT" 550;
 }
 
 body {
